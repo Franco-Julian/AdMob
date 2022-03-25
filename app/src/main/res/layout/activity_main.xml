@@ -14,4 +14,13 @@
         android:text="banner"
         android:layout_gravity="center_horizontal"/>
 
+    <Button
+        android:id="@+id/btnInterstitial"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="interstitial"
+        android:layout_gravity="center_horizontal"/>
+
+
 </LinearLayout>

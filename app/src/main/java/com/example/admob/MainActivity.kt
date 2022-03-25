@@ -20,5 +20,8 @@ class MainActivity : AppCompatActivity() {
     private fun initListeners(){
         val bannerIntent = Intent(this, BannerActivity::class.java)
         bindind.btnBanner.setOnClickListener { startActivity(bannerIntent) }
+
+        val interstitialIntent = Intent(this,InterstitialActivity::class.java)
+        bindind.btnInterstitial.setOnClickListener { startActivity(interstitialIntent) }
     }
 }
